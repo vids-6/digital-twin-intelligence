@@ -23,13 +23,6 @@ Digital Twin Intelligence is an academic full-stack prototype that simulates an 
 **Retrieval:** ChromaDB, sentence-transformers (or offline hashing fallback), PyMuPDF  
 **Testing:** pytest
 
-## Screenshots
-
-![Factory dashboard](docs/screenshots/dt_command.png)
-![Factory floor](docs/screenshots/dt_floor.png)
-![Machine telemetry](docs/screenshots/dt_machines.png)
-![Incident investigator](docs/screenshots/dt_investigate_setup.png)
-
 ## Run locally
 
 Requires Python 3.12 and Node.js 20+.
