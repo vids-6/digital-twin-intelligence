@@ -1,0 +1,6 @@
+INCIDENT REPORT — PACKAGING LINE JAM
+Report ID: IR-PKG-2026-018
+
+A simulated packaging line jam was investigated after production count stopped increasing. Potential contributors included material misfeed, sensor obstruction, belt tracking issues, and product accumulation at the infeed. These are hypotheses until confirmed by inspection.
+
+Recommended response: stop the affected equipment using normal controls; isolate before clearing any jam; inspect feed alignment and sensors; verify guards and interlocks; test at reduced rate after clearance; and record the cause and corrective action. Repeated jams should trigger a preventive-maintenance review.

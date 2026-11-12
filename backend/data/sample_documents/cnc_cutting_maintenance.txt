@@ -1,0 +1,11 @@
+NORTHSTAR MAINTENANCE MANUAL — CNC CUTTING UNIT
+Document code: MM-CNC-021 | Revision 2
+
+SPINDLE TEMPERATURE AND LUBRICATION
+Unusual spindle temperature can result from insufficient lubrication, excessive cutting load, tool wear, cooling-system restriction, or a failing bearing. Confirm the sensor reading and operating conditions before diagnosing. Review lubrication intervals and coolant flow against the machine manufacturer's instructions.
+
+VIBRATION AND CUT QUALITY
+Increasing vibration may correlate with tool imbalance, worn spindle bearings, loose tooling, or workpiece clamping issues. Stop the spindle before checking tooling or fixtures. Follow the machine-specific isolation procedure. Do not bypass interlocks.
+
+MAINTENANCE ACTIONS
+Inspect coolant level and flow, check tool condition and clamping, review recent alarms, and compare spindle temperature trends with baseline data. A qualified technician should inspect bearings if symptoms persist. Document the findings and test the unit before release.

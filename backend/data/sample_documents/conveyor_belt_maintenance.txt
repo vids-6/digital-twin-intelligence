@@ -1,0 +1,14 @@
+NORTHSTAR MAINTENANCE MANUAL — CONVEYOR BELT DRIVE
+Document code: MM-CNV-014 | Revision 3
+
+VIBRATION AND BEARING TROUBLESHOOTING
+A sustained increase in drive-end vibration can be associated with bearing wear, loose mounting bolts, pulley misalignment, belt tension outside specification, or material buildup. Vibration alone does not prove a bearing failure. Confirm readings with an approved calibrated instrument and compare them with the equipment-specific alarm limits.
+
+TEMPERATURE
+A rising motor or bearing housing temperature alongside vibration may indicate friction, poor lubrication, misalignment, overloading, or restricted cooling. Check that temperature sensors are secure and compare the reading to the manufacturer's limit. Do not apply a universal temperature limit to all conveyor motors.
+
+CORRECTIVE CHECKS
+Before inspection, stop and isolate the conveyor and follow the site's lockout/tagout procedure. Inspect guards, mounting fasteners, belt tracking, pulley alignment, bearing condition, and lubrication per the manufacturer's schedule. Remove material buildup only after isolation. If vibration or temperature exceeds site limits, keep the machine stopped and escalate to qualified maintenance personnel.
+
+PREVENTIVE MAINTENANCE
+Record vibration and temperature trends at consistent measurement points. Check alignment after belt replacement or drive maintenance. Use only specified lubricants and quantities. Record any repair and verify readings under controlled conditions before returning to service.

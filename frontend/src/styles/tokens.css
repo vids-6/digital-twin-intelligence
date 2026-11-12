@@ -1,0 +1,70 @@
+/* ==========================================================================
+   Design tokens — "instrument sheet"
+   Rule of the system: grey when normal, colour when abnormal.
+   - paper / steel   neutral surfaces, running machines, structure
+   - acid            selection, primary action, focus  (rare on purpose)
+   - cobalt          analytical data: lines, areas, gauges
+   - signal (red)    warnings and faults only
+   ========================================================================== */
+:root {
+  color-scheme: dark;
+
+  /* surfaces */
+  --ink: #10110f;
+  --ink-2: #161714;
+  --ink-3: #1d1f1b;
+  --ink-4: #262823;
+  --rule: #2c2f2a;
+  --rule-2: #3c3f39;
+  --rule-3: #52564f;
+
+  /* paper (printed-sheet surfaces) */
+  --paper: #f2f0e8;
+  --paper-2: #e5e2d5;
+  --paper-3: #d2cfc0;
+  --paper-ink: #10110f;
+  --paper-ink-2: #4a4c45;
+  --paper-rule: #bdb9a8;
+
+  /* text on ink */
+  --text: #f2f0e8;
+  --text-2: #b7bbb6;
+  --text-3: #8c918e; /* 5.7:1 on --ink */
+  --steel: #747a78; /* ticks, rules, disabled — never body text */
+
+  /* accents */
+  --acid: #d7ff38;
+  --acid-ink: #10110f;
+  --acid-wash: rgb(215 255 56 / 0.1);
+  --cobalt: #3457ff;
+  --cobalt-lt: #8197ff; /* lines/text on ink */
+  --cobalt-wash: rgb(52 87 255 / 0.16);
+  --signal: #ff4d38;
+  --signal-wash: rgb(255 77 56 / 0.12);
+  --signal-paper: #c92a15; /* red text on paper, 5.1:1 */
+
+  /* type */
+  --font-display: 'Big Shoulders Display Variable', 'Arial Narrow', 'Helvetica Neue Condensed', Impact, sans-serif;
+  --font-sans: 'Instrument Sans Variable', ui-sans-serif, system-ui, -apple-system, 'Segoe UI', sans-serif;
+  --font-mono: 'Geist Mono Variable', ui-monospace, 'SF Mono', Menlo, Consolas, monospace;
+
+  /* scale */
+  --fs-micro: 11.5px;
+  --fs-small: 12.5px;
+  --fs-body: 14px;
+  --fs-lead: 17px;
+
+  /* geometry */
+  --radius: 2px;
+  --gutter: clamp(16px, 2.6vw, 44px);
+  --strip-h: 28px;
+  --topbar-h: 56px;
+  --maxw: 1680px;
+
+  /* motion */
+  --ease: cubic-bezier(0.2, 0.7, 0.1, 1);
+  --ease-inout: cubic-bezier(0.65, 0, 0.35, 1);
+  --t-fast: 0.14s;
+  --t: 0.22s;
+  --t-slow: 0.45s;
+}

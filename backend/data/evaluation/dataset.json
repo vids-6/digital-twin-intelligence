@@ -1,0 +1,7 @@
+[
+ {"id":"eval-1","query":"conveyor excessive vibration bearing wear alignment","relevant_terms":["conveyor","vibration","bearing"]},
+ {"id":"eval-2","query":"CNC cutting unit spindle temperature lubrication maintenance","relevant_terms":["cnc","spindle","lubrication"]},
+ {"id":"eval-3","query":"heat processing furnace temperature calibration overheat","relevant_terms":["heat","temperature","calibration"]},
+ {"id":"eval-4","query":"robotic assembly emergency stop sensor safety","relevant_terms":["robot","safety","sensor"]},
+ {"id":"eval-5","query":"packaging conveyor jam inspection preventive maintenance","relevant_terms":["packaging","jam","inspection"]}
+]

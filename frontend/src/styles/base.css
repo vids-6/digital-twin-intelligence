@@ -1,0 +1,81 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html { background: var(--ink); scroll-behavior: smooth; -webkit-text-size-adjust: 100%; }
+body {
+  margin: 0;
+  min-width: 320px;
+  background: var(--ink);
+  color: var(--text);
+  font-family: var(--font-sans);
+  font-size: var(--fs-body);
+  line-height: 1.5;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+}
+#root { min-height: 100vh; display: flex; flex-direction: column; }
+
+* { box-sizing: border-box; }
+button, input, textarea, select { font: inherit; color: inherit; }
+button { cursor: pointer; background: none; border: 0; padding: 0; }
+button:disabled { cursor: not-allowed; }
+a { color: inherit; text-decoration: none; }
+h1, h2, h3, h4, p { margin: 0; }
+ul, ol { margin: 0; padding: 0; list-style: none; }
+table { border-collapse: collapse; width: 100%; }
+
+::selection { background: var(--acid); color: var(--acid-ink); }
+:focus { outline: none; }
+:focus-visible { outline: 2px solid var(--acid); outline-offset: 2px; border-radius: 1px; }
+.on-paper :focus-visible { outline-color: var(--cobalt); }
+
+.sr-only {
+  position: absolute; width: 1px; height: 1px; margin: -1px; padding: 0;
+  overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; border: 0;
+}
+.skip-link {
+  position: fixed; left: 12px; top: -60px; z-index: 200; padding: 8px 14px;
+  background: var(--acid); color: var(--acid-ink); font-weight: 600; transition: top var(--t-fast);
+}
+.skip-link:focus { top: 12px; }
+
+/* thin scrollbars */
+* { scrollbar-width: thin; scrollbar-color: var(--rule-3) transparent; }
+::-webkit-scrollbar { width: 8px; height: 8px; }
+::-webkit-scrollbar-thumb { background: var(--rule-3); border-radius: 0; }
+::-webkit-scrollbar-track { background: transparent; }
+
+/* type utilities */
+.mono { font-family: var(--font-mono); font-variant-numeric: tabular-nums; letter-spacing: 0; }
+.display { font-family: var(--font-display); }
+.num { font-variant-numeric: tabular-nums; }
+.muted { color: var(--text-3); }
+.dim { color: var(--text-2); }
+
+/* calibration marks: four corner ticks drawn by one pseudo-element */
+.reg { position: relative; --reg: var(--rule-3); --reg-len: 12px; }
+.reg::before {
+  content: ''; position: absolute; inset: -1px; pointer-events: none; z-index: 2;
+  background:
+    linear-gradient(var(--reg), var(--reg)) top left / var(--reg-len) 1px no-repeat,
+    linear-gradient(var(--reg), var(--reg)) top left / 1px var(--reg-len) no-repeat,
+    linear-gradient(var(--reg), var(--reg)) top right / var(--reg-len) 1px no-repeat,
+    linear-gradient(var(--reg), var(--reg)) top right / 1px var(--reg-len) no-repeat,
+    linear-gradient(var(--reg), var(--reg)) bottom left / var(--reg-len) 1px no-repeat,
+    linear-gradient(var(--reg), var(--reg)) bottom left / 1px var(--reg-len) no-repeat,
+    linear-gradient(var(--reg), var(--reg)) bottom right / var(--reg-len) 1px no-repeat,
+    linear-gradient(var(--reg), var(--reg)) bottom right / 1px var(--reg-len) no-repeat;
+}
+
+/* Reduced motion: keep layout and state changes, drop movement. */
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+  *, *::before, *::after {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    animation-delay: 0ms !important;
+    transition-duration: 0.001ms !important;
+  }
+}

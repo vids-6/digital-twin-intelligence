@@ -1,0 +1,8 @@
+NORTHSTAR MAINTENANCE MANUAL — HEAT PROCESSING UNIT
+Document code: MM-HT-009 | Revision 4
+
+TEMPERATURE CONTROL
+Temperature excursions may arise from sensor drift, heater element degradation, poor insulation, airflow obstruction, or controller configuration. Confirm calibration status and compare independent measurements using approved procedures. Process temperature limits are recipe- and material-specific; use the approved process sheet rather than generic values.
+
+RESPONSE
+If temperature exceeds the approved operating envelope, follow the site shutdown and escalation procedure. Do not open a hot chamber until the approved cool-down and isolation requirements are met. Check thermocouple condition, controller alarms, and airflow only when safe.

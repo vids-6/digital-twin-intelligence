@@ -1,0 +1,8 @@
+NORTHSTAR SAFETY NOTE — ROBOTIC ASSEMBLY CELL
+Document code: SN-ROB-006
+
+ROBOT AND SENSOR FAULTS
+Unexpected stops may be caused by safety interlocks, sensor contamination or misalignment, gripper pressure loss, path obstruction, or controller alarms. Review the event log before resetting. Never bypass light curtains, guards, emergency stops, or other safety devices.
+
+INSPECTION
+Use the approved cell isolation and lockout/tagout procedure before entering the guarded area. Inspect sensor status and gripper condition from safe positions where possible. Only trained personnel may restore operation after a safety-related incident.
